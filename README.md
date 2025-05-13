@@ -1,7 +1,4 @@
 
-<img src="PassionProject/Content/Images/title.png">
-
-
 **This project is created for a Hair Salon to manage employee details, service details and for booking appointments**
 
 ### Setting up the databse:
