@@ -1,5 +1,5 @@
 
-**This project is created for a Hair Salon to manage employee details, service details and for booking appointments**
+**This project is a template for a basic application for Hair Salon. It is created to demonstate some of the features of .Net framework like Authentication, MVC, API, Entity Framework etc. To be used for learning purpose only.**
 
 ### Setting up the databse:
 - Create database locally by running Update-Database command in Package Manager Console
