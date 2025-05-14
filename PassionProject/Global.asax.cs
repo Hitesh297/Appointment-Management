@@ -19,5 +19,11 @@ namespace PassionProject
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        protected void Application_Error()
+        {
+            Exception ex = Server.GetLastError();
+            System.Diagnostics.Trace.WriteLine("Unhandled Exception: " + ex.ToString());
+        }
+
     }
 }

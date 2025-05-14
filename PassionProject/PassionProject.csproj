@@ -292,7 +292,6 @@
     <Content Include="Views\Appointment\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Content\Images\Employees\" />
   </ItemGroup>
   <ItemGroup>

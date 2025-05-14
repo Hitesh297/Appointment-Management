@@ -5,7 +5,7 @@
         employees.empty();
         // clear existing options
         $.ajax({
-            url: 'https://localhost:44364/api/EmployeeData/GetEmployeesByServiceId/'+ service, // do not hard code url's
+            url: 'http://salonapp6-env.eba-crdzx5zw.us-east-2.elasticbeanstalk.com/api/EmployeeData/GetEmployeesByServiceId/'+ service, // do not hard code url's
             type: "GET",
             dataType: "json",
             success: function (data) {
